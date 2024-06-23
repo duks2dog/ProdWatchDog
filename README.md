@@ -1,9 +1,11 @@
 # ProdWatchDog
 
 # Description
-自分用に、ある2次流通商品サイトを監視し自分が欲しいものを監視するPythonツール
+自分用に、ある2次流通サイト(ま◯だら◯)を監視し自分が欲しいものを監視するPythonツール
 
 通知先はDiscordにしています
+![image](https://github.com/duks2dog/ProdWatchDog/assets/12562150/c790c47d-ff48-42a8-8d78-2e6c5ea054e2)
+
 
 # Install
 ## Discordに自分用チャンネル作成
@@ -47,6 +49,12 @@ import datetime
 # WebhookのURL
 WEBHOOK_URL = 'hogehoge'
 WEBHOOK_LOGURL = 'HERE'
+```
+## 監視したい商品の検索結果ページURLを設定
+prodWatchDog.pyと同じディレクトリにURL設定ファイルを配置
+改行で複数設定可能
+```
+touch urls.txt
 ```
 
 ## cronの設定
