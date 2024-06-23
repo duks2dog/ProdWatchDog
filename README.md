@@ -11,9 +11,11 @@
 
 ## 通知を行いたいチャンネルのURLを取得
 チャンネル設定を開く
+
 ![image](https://github.com/duks2dog/ProdWatchDog/assets/12562150/70f2cae0-fcdc-49c8-9537-d2d7f71f820e)
 
 連携サービスからWebhookURLを発行しコピー
+
 ![image](https://github.com/duks2dog/ProdWatchDog/assets/12562150/71e21787-256e-44e3-95b5-71870f5e6883)
 
 ## WEBHOOK_URLを設定
